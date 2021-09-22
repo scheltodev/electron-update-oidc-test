@@ -1,0 +1,43 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+div.profile {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: start;
+  width: 100%;
+}
+
+div.profile span {
+  display: inline-block;
+  align-self: center;
+  color: #ccc;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+div.profile img {
+  width: 30px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+div#message {
+  display: none;
+}
+
+#notification {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.hidden {
+  display: none;
+}
