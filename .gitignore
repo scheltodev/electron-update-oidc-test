@@ -64,3 +64,5 @@ typings/
 env-variables.json
 
 electron-builder.yml
+
+dist

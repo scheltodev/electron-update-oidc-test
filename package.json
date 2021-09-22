@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "deploy": "electron-builder build --win --publish always"
   },
   "keywords": [],
-  "author": "Bruno Krebs <krebs.bruno@gmail.com>",
+  "author": "schelto",
   "license": "MIT",
   "devDependencies": {
     "electron": "^9.4.4",
